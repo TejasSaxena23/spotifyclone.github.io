@@ -17,7 +17,7 @@ nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    height: 65px;
+    height: 6.5rem;
     background-color: black;
     color: white;
 }
@@ -115,10 +115,115 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
-@media only screen and (max-width: 1100px) {
+@media  (max-width: 700px)  {
     body {
       background-color: red;
     }
+  #poi{
+    margin-left: 40px;
+   max-width: 100px;
+    max-height: 20px;
+    font-size: 0px;
+  }
+  #poi1{
+   max-width: 30px;
+    max-height: 30px;
+  }
+  #btn1{
+    max-width: 60px;
+    max-height: 30px;
+    font-size: small;
+  }
+  #btn2{
+    margin-left: -20px ;
+    max-width: 60px;
+    max-height: 30px;
+    font-size: small;
+  }
+  #btn3{
+    margin-left: -20px ;
+    max-width: 60px;
+    max-height: 30px;
+    font-size: small;
+  }
+  #btn4{
+    max-width: 30px;
+    height: 30px;
+    font-size: small;
+  }
+ #uio{
+       margin-left: -50px;
+        max-width: 50px;
+        max-height: 20px;
+        font-size: 0px;
+    }
+    .sng1{
+        font-size: 11px ;
+    }
+    .sng2{
+        font-size: 11px ;
+        margin-left: -50px;
+        margin-bottom: 20px;
+    }
+.sng3{
+    max-width: 500px;
+    max-height: 500px;
+}
+  }
+  @media  (max-width: 00px)  {
+    body {
+      background-color: red;
+    }
+  #poi{
+    margin-left: 40px;
+   max-width: 100px;
+    max-height: 20px;
+    font-size: 0px;
+  }
+  #poi1{
+   max-width: 30px;
+    max-height: 30px;
+  }
+  #btn1{
+    max-width: 60px;
+    max-height: 30px;
+    font-size: small;
+  }
+  #btn2{
+    margin-left: -20px ;
+    max-width: 60px;
+    max-height: 30px;
+    font-size: small;
+  }
+  #btn3{
+    margin-left: -20px ;
+    max-width: 60px;
+    max-height: 30px;
+    font-size: small;
+  }
+  #btn4{
+    max-width: 30px;
+    height: 30px;
+    font-size: small;
+  }
+ #uio{
+       margin-left: -50px;
+        max-width: 50px;
+        max-height: 20px;
+        font-size: 0px;
+    }
+    .sng1{
+        font-size: 11px ;
+    }
+    .sng2{
+        font-size: 11px ;
+        margin-left: -50px;
+        margin-bottom: 20px;
+    }
+.sng3{
+    max-width: 500px;
+    max-height: 500px;
+}
   }
 .search{
      margin-left: 40%;
@@ -126,13 +231,13 @@ nav ul li{
      border-color: rgb(152, 152, 238);
      width: 220px;
      height: 30px;
-     font-size: small;
+     font-size: 16px;
      text-align: center;
   }
   .img{
     width: 40px;
     height: 40px;
-    
   margin-left: 10px;
+  
   }
   
