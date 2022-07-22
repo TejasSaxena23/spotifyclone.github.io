@@ -76,7 +76,7 @@ document.getElementById('next').addEventListener('click', ()=>{
         songIndex = 0
     }
     else{
-        songIndex =0;
+        songIndex +=1;
     }
     audioElement.src = `songs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
@@ -92,7 +92,7 @@ document.getElementById('previous').addEventListener('click', ()=>{
         songIndex = 0
     }
     else{
-        songIndex = 0;
+        songIndex -= 1;
     }
     audioElement.src = `songs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
