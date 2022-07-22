@@ -116,9 +116,6 @@ nav ul li{
 }
 
 @media screen and (max-width: 600px)  {
-    body {
-      background-color: red;
-    }
   #poi{
     margin-left: 40px;
    max-width: 0px;
@@ -173,9 +170,6 @@ nav ul li{
 }
   }
   @media (min-width:600px) and ( max-width: 800px)  {
-    body {
-      background-color: red;
-    }
   #poi{
     margin-left: 40px;
    max-width: 100px;
