@@ -72,11 +72,11 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=2){
+    if(songIndex>=9){
         songIndex = 0
     }
     else{
-        songIndex += 1;
+        songIndex =0;
     }
     audioElement.src = `songs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
@@ -92,7 +92,7 @@ document.getElementById('previous').addEventListener('click', ()=>{
         songIndex = 0
     }
     else{
-        songIndex -= 1;
+        songIndex = 0;
     }
     audioElement.src = `songs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
