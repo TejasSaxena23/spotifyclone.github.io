@@ -127,6 +127,7 @@ nav ul li{
     border-color: black;
   }
   #poi1{
+    margin-left: -30px;
    max-width: 30px;
     max-height: 30px;
   }
@@ -159,7 +160,7 @@ nav ul li{
         font-size: 0px;
     }
     .sng1{
-        font-size: 9px ;
+        font-size: 6.7px ;
     }
     .sng2{
         font-size: 11px ;
